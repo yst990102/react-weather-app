@@ -38,9 +38,9 @@ class App extends React.Component {
         // clouds
         clouds: data.list[dayIndices[i]].clouds.all, // 云层覆盖率
         // winds
-        speed: data.list[dayIndices[i]].winds.speed, // 平均风速
-        deg: data.list[dayIndices[i]].winds.deg, // 风向
-        gust: data.list[dayIndices[i]].winds.gust, // 瞬时风速（最大风速）
+        speed: data.list[dayIndices[i]].wind.speed, // 平均风速
+        deg: data.list[dayIndices[i]].wind.deg, // 风向
+        gust: data.list[dayIndices[i]].wind.gust, // 瞬时风速（最大风速）
         // visibility
         visibility: data.list[dayIndices[i]].visibility,
         // pop
